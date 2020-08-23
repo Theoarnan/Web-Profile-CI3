@@ -38,8 +38,8 @@
 								<td><?= $d->category_project_id ?></td>
 								<td><?= $d->gambar_project ?></td>
 								<td style="text-align:center">
-									<button class="btn btn-sm btn-info tombolEdit" data-id="<?= $d->id_skill_project ?>" data-nama="<?= $d->nama_skill_project ?>" data-desk="<?= $d->deskripsi_skill_project ?>" data-pres="<?= $d->presentase_skill_project ?>" data-idkat="<?= $d->category_Skill_project_id ?>" data-title="Edit"><i class="fas fa-pencil-alt"></i></button>
-									<a href="#" data-id="<?= $d->id_skill_project ?>" id="delete_id" class="btn btn-sm btn-danger tombolHapus">
+									<button class="btn btn-sm btn-info tombolEdit" data-id="<?= $d->id_portofolio ?>" data-nama="<?= $d->nama_project ?>" data-desk="<?= $d->deskripsi_project ?>" data-sub="<?= $d->sub_desk_project ?>" data-dates="<?= $d->deadline_project ?>" data-client="<?= $d->client_project ?>" data-review="<?= $d->client_review ?>" data-demo="<?= $d->demo_project ?>" data-skill="<?= $d->skill_project_id ?>" data-kate="<?= $d->category_project_id ?>" data-gambar="<?= $d->gambar_project ?>" data-title="Edit"><i class="fas fa-pencil-alt"></i></button>
+									<a href="#" data-id="<?= $d->id_portofolio ?>" id="delete_id" class="btn btn-sm btn-danger tombolHapus">
 										<i class="fas fa-trash"></i></a>
 								</td>
 							</tr>
